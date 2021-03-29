@@ -1,6 +1,6 @@
 <?php
 
-include_once("config.php");
+include_once('config.php');
 
 
 class Database
@@ -21,17 +21,27 @@ class Database
         }
     }
 
-    public function query($sql)
+    /**
+     * @param string $sql
+     * @return mixed
+     */
+    public function query($sql = '')
     {
         $result = $this->connection->query($sql);
+//        echo "<pre>";
+//        print_r($result);
+//        echo "</pre>";
         $this->confirm_query($result);
+        return $result;
     }
 
     private function confirm_query($result)
     {
-        if (!$result) {
-            die("Database query failed" . $this->connection->error);
-        }
+        !$result && die("Database query failed" . $this->connection->error);
+
+//        if (!$result) {
+//            die("Database query failed" . $this->connection->error);
+//        }
     }
 
     public function escape_string($string)
