@@ -9,12 +9,12 @@
             </h1>
             <?php
 
-                $result_set = User::find_all_users();
-                if($result_set){
-                    while($row = mysqli_fetch_array($result_set)){
-                        echo $row['username'] . "<br>";
-                    }
-                }
+//                $result_set = User::find_all_users();
+//                if($result_set){
+//                    while($row = mysqli_fetch_array($result_set)){
+//                        echo $row['username'] . "<br>";
+//                    }
+//                }
 
 
 
