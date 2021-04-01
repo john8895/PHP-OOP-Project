@@ -9,6 +9,20 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="SAAS00公版">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="SAAS07公版">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="丞風">
         <serverdata>
           <mappings>
@@ -101,6 +115,13 @@
         </serverdata>
       </paths>
       <paths name="鑫進">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="鴻柏測試站">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
